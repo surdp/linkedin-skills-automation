@@ -1,0 +1,28 @@
+# Installed dependencies
+node_modules/
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Browser authentication and session data
+.playwright/
+playwright/.auth/
+.auth/
+
+# LinkedIn page diagnostics and personal inspection data
+linkedin-controls.json
+linkedin-dom-inspection.json
+linkedin-page-diagnostic.json
+linkedin-skills-page.txt
+cleanup-targets-found.json
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+*.backup
